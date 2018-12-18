@@ -1,0 +1,6 @@
+<html>
+{% include "header.template" %}
+<body>
+{% block content %} {% endblock %}
+</body>
+</html>

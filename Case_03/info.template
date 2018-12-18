@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+ 		<title>loop</title>
+	</head>
+	<body>
+		<ul>
+ 			{% for name in NameList %}
+ 			<li> {{ name }} </li>
+ 			{% endfor %}
+		</ul> 
+	</body>
+</html>
